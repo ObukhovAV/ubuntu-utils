@@ -28,4 +28,4 @@ RUN apt-get clean && \
 #EXPOSE 22
 #EXPOSE 22 443 80
 
-CMD    ["/usr/sbin/sshd", "-D"]
+#CMD    ["/usr/sbin/sshd", "-D"]
